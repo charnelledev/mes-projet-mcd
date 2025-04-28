@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model ID="{AAAB0AEB-F134-4DA3-A8E6-929ACEE150BF}" Name="ModeleConceptuelDonnees_1" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="ModeleConceptuelDonnees_1.mcd"/>
+		<Model ID="{0B61CCB6-52F3-47D9-A0B4-FFE9A16382A3}" Name="MODELECONCEPTUELDONNEES_4" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="/xampp/htdocs/mcd/MODELECONCEPTUELDONNEES_4.mcd"/>
+		<Model Expanded="Yes" ID="{FF44285C-5846-494A-B55F-DD084CBFF9C8}" Name="MODELECONCEPTUELDONNEES_3" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="ModeleConceptuelDonnees_3.mcd"/>
+		<Model Expanded="Yes" ID="{E5553DE1-A327-41B7-A5B1-1D180B90F176}" Loaded="No" Name="ModeleConceptuelDonnees_1" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="ModeleConceptuelDonnees_1.mld"/>
+		<Model Expanded="Yes" ID="{C434F2F7-2572-4836-B68D-223921314319}" Name="ModeleConceptuelDonnees_3" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="ModeleConceptuelDonnees_3.mld"/>
+		<Model Expanded="Yes" ID="{8A4F6374-41AE-48BE-B38A-1372F56CC93F}" Name="ModeleConceptuelDonnees_3" Type="{5F45F978-C4F3-4E35-A3FC-AF3318663A0F}" URL="/xampp/htdocs/mcd/ModeleConceptuelDonnees_3.mld"/>
+		<Model ID="{16860EEF-81DD-4301-9715-7DA6FDC92850}" Name="ModeleConceptuelDonnees_1" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="/xampp/htdocs/mcd/ModeleConceptuelDonnees_1.mcd"/>
+		<Model ID="{D7EC3BD6-1045-401F-BF63-14DAF6D5A973}" Name="ModeleConceptuelDonnees_2" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="/xampp/htdocs/mcd/ModeleConceptuelDonnees_2.mcd"/>
+		<Model Expanded="Yes" ID="{A66146C4-0861-4F1C-BFD7-74999C355551}" Name="ModeleConceptuelDonnees_4" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="/Nouveau dossier (2)/Desktop/cc.mcd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>
