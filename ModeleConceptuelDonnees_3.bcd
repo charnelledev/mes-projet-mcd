@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{FF44285C-5846-494A-B55F-DD084CBFF9C8}" Label="" LastModificationDate="1737231744" Name="ModeleConceptuelDonnees_3" Objects="23" Symbols="5" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{FF44285C-5846-494A-B55F-DD084CBFF9C8}" Label="" LastModificationDate="1743147956" Name="MODELECONCEPTUELDONNEES_3" Objects="25" Symbols="5" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" signature="CDM_DATA_MODEL_XML" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -8,11 +8,11 @@
 <c:Children>
 <o:Model Id="o2">
 <a:ObjectID>FF44285C-5846-494A-B55F-DD084CBFF9C8</a:ObjectID>
-<a:Name>ModeleConceptuelDonnees_3</a:Name>
+<a:Name>MODELECONCEPTUELDONNEES_3</a:Name>
 <a:Code>MODELECONCEPTUELDONNEES_3</a:Code>
 <a:CreationDate>1737198848</a:CreationDate>
 <a:Creator>kengn</a:Creator>
-<a:ModificationDate>1737199731</a:ModificationDate>
+<a:ModificationDate>1742899429</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -794,9 +794,21 @@ PreserveMode=Yes</a:ModelOptionsText>
 <a:TargetID>178C3EAD-A26A-4140-9877-E7FAD8974113</a:TargetID>
 <a:TargetClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetClassID>
 </o:Shortcut>
+<o:Shortcut Id="o4">
+<a:ObjectID>2E1494FC-E99A-47CA-B228-279DFDD8EBCE</a:ObjectID>
+<a:Name>ModeleConceptuelDonnees_3</a:Name>
+<a:Code>MODELECONCEPTUELDONNEES_3</a:Code>
+<a:CreationDate>1742899374</a:CreationDate>
+<a:Creator>kengn</a:Creator>
+<a:ModificationDate>1742899374</a:ModificationDate>
+<a:Modifier>kengn</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>8A4F6374-41AE-48BE-B38A-1372F56CC93F</a:TargetID>
+<a:TargetClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetClassID>
+</o:Shortcut>
 </c:GeneratedModels>
 <c:ConceptualDiagrams>
-<o:ConceptualDiagram Id="o4">
+<o:ConceptualDiagram Id="o5">
 <a:ObjectID>9CD4EC85-275B-425C-8B3B-E63A0CC3404F</a:ObjectID>
 <a:Name>Diagramme_1</a:Name>
 <a:Code>DIAGRAMME_1</a:Code>
@@ -1169,7 +1181,7 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>1</a:PaperSource>
 <c:Symbols>
-<o:AssociationLinkSymbol Id="o5">
+<o:AssociationLinkSymbol Id="o6">
 <a:CreationDate>1737199599</a:CreationDate>
 <a:ModificationDate>1737199599</a:ModificationDate>
 <a:Rect>((6750,5576), (13350,6850))</a:Rect>
@@ -1181,16 +1193,16 @@ Shadow=0</a:DisplayPreferences>
 <a:FontList>ROLE 0 Arial,8,N
 CARD 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:EntitySymbol Ref="o6"/>
+<o:EntitySymbol Ref="o7"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:AssociationSymbol Ref="o7"/>
+<o:AssociationSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:AssociationLink Ref="o8"/>
+<o:AssociationLink Ref="o9"/>
 </c:Object>
 </o:AssociationLinkSymbol>
-<o:AssociationLinkSymbol Id="o9">
+<o:AssociationLinkSymbol Id="o10">
 <a:CreationDate>1737199604</a:CreationDate>
 <a:ModificationDate>1737199731</a:ModificationDate>
 <a:Rect>((-12525,4950), (1049,7736))</a:Rect>
@@ -1202,16 +1214,16 @@ CARD 0 Arial,8,N</a:FontList>
 <a:FontList>ROLE 0 Arial,8,N
 CARD 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:EntitySymbol Ref="o10"/>
+<o:EntitySymbol Ref="o11"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:AssociationSymbol Ref="o7"/>
+<o:AssociationSymbol Ref="o8"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:AssociationLink Ref="o11"/>
+<o:AssociationLink Ref="o12"/>
 </c:Object>
 </o:AssociationLinkSymbol>
-<o:EntitySymbol Id="o10">
+<o:EntitySymbol Id="o11">
 <a:CreationDate>1737198878</a:CreationDate>
 <a:ModificationDate>1737198977</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -1231,10 +1243,10 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Entity Ref="o12"/>
+<o:Entity Ref="o13"/>
 </c:Object>
 </o:EntitySymbol>
-<o:EntitySymbol Id="o6">
+<o:EntitySymbol Id="o7">
 <a:CreationDate>1737198883</a:CreationDate>
 <a:ModificationDate>1737198968</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -1254,10 +1266,10 @@ Identifiers 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Entity Ref="o13"/>
+<o:Entity Ref="o14"/>
 </c:Object>
 </o:EntitySymbol>
-<o:AssociationSymbol Id="o7">
+<o:AssociationSymbol Id="o8">
 <a:CreationDate>1737199367</a:CreationDate>
 <a:ModificationDate>1737199393</a:ModificationDate>
 <a:Rect>((-5250,2176), (7348,7724))</a:Rect>
@@ -1274,17 +1286,17 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Association Ref="o14"/>
+<o:Association Ref="o15"/>
 </c:Object>
 </o:AssociationSymbol>
 </c:Symbols>
 </o:ConceptualDiagram>
 </c:ConceptualDiagrams>
 <c:DefaultDiagram>
-<o:ConceptualDiagram Ref="o4"/>
+<o:ConceptualDiagram Ref="o5"/>
 </c:DefaultDiagram>
 <c:Entities>
-<o:Entity Id="o12">
+<o:Entity Id="o13">
 <a:ObjectID>F4C21387-ED2F-4D11-8F21-19AF190E1A55</a:ObjectID>
 <a:Name>Founisseur</a:Name>
 <a:Code>FOUNISSEUR</a:Code>
@@ -1293,7 +1305,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1737199219</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o15">
+<o:Identifier Id="o16">
 <a:ObjectID>E717FE3A-8EDB-41CC-9775-85E1997DE114</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1302,15 +1314,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1737199219</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o16"/>
+<o:EntityAttribute Ref="o17"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o15"/>
+<o:Identifier Ref="o16"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o16">
+<o:EntityAttribute Id="o17">
 <a:ObjectID>E080B476-8B72-41D5-A738-C7F4D0778113</a:ObjectID>
 <a:CreationDate>1737199069</a:CreationDate>
 <a:Creator>kengn</a:Creator>
@@ -1318,32 +1330,32 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>kengn</a:Modifier>
 <a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
-<o:DataItem Ref="o17"/>
+<o:DataItem Ref="o18"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o18">
+<o:EntityAttribute Id="o19">
 <a:ObjectID>5C2EC023-D3B5-494C-BBB4-FCB4BD4FBF56</a:ObjectID>
 <a:CreationDate>1737199069</a:CreationDate>
 <a:Creator>kengn</a:Creator>
 <a:ModificationDate>1737199219</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o19"/>
+<o:DataItem Ref="o20"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o20">
+<o:EntityAttribute Id="o21">
 <a:ObjectID>B36994DF-971B-44B5-AA6E-FABA48410D05</a:ObjectID>
 <a:CreationDate>1737199069</a:CreationDate>
 <a:Creator>kengn</a:Creator>
 <a:ModificationDate>1737199219</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o21"/>
+<o:DataItem Ref="o22"/>
 </c:DataItem>
 </o:EntityAttribute>
 </c:Attributes>
 </o:Entity>
-<o:Entity Id="o13">
+<o:Entity Id="o14">
 <a:ObjectID>CD60CA6B-EF1E-4447-9AAC-C5517AD92CD8</a:ObjectID>
 <a:Name>Livraison</a:Name>
 <a:Code>LIVRAISON</a:Code>
@@ -1352,7 +1364,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1737199354</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:Identifiers>
-<o:Identifier Id="o22">
+<o:Identifier Id="o23">
 <a:ObjectID>D6DB89FB-8F54-4E12-8D7C-7158FE7C0BE0</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>IDENTIFIANT_1</a:Code>
@@ -1361,15 +1373,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1737199354</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:Identifier.Attributes>
-<o:EntityAttribute Ref="o23"/>
+<o:EntityAttribute Ref="o24"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o22"/>
+<o:Identifier Ref="o23"/>
 </c:PrimaryIdentifier>
 <c:Attributes>
-<o:EntityAttribute Id="o23">
+<o:EntityAttribute Id="o24">
 <a:ObjectID>440673C7-881D-4904-BE95-1A97E88517B2</a:ObjectID>
 <a:CreationDate>1737199276</a:CreationDate>
 <a:Creator>kengn</a:Creator>
@@ -1377,24 +1389,24 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>kengn</a:Modifier>
 <a:BaseAttribute.Mandatory>1</a:BaseAttribute.Mandatory>
 <c:DataItem>
-<o:DataItem Ref="o24"/>
+<o:DataItem Ref="o25"/>
 </c:DataItem>
 </o:EntityAttribute>
-<o:EntityAttribute Id="o25">
+<o:EntityAttribute Id="o26">
 <a:ObjectID>60F8E6B9-72F3-49B6-A150-0F3E820BA6A9</a:ObjectID>
 <a:CreationDate>1737199276</a:CreationDate>
 <a:Creator>kengn</a:Creator>
 <a:ModificationDate>1737199354</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o26"/>
+<o:DataItem Ref="o27"/>
 </c:DataItem>
 </o:EntityAttribute>
 </c:Attributes>
 </o:Entity>
 </c:Entities>
 <c:DataItems>
-<o:DataItem Id="o17">
+<o:DataItem Id="o18">
 <a:ObjectID>C4DF23F3-1741-4BF6-B47F-06A592B265E8</a:ObjectID>
 <a:Name>N°F</a:Name>
 <a:Code>NF</a:Code>
@@ -1404,7 +1416,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>kengn</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o19">
+<o:DataItem Id="o20">
 <a:ObjectID>E61FF589-1941-4B7D-9DCB-8459E9A1C8F2</a:ObjectID>
 <a:Name>NomF</a:Name>
 <a:Code>NOMF</a:Code>
@@ -1415,7 +1427,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>LVA10</a:DataType>
 <a:Length>10</a:Length>
 </o:DataItem>
-<o:DataItem Id="o21">
+<o:DataItem Id="o22">
 <a:ObjectID>50880561-9B3A-4D22-BA0A-EA8AD5B50FB9</a:ObjectID>
 <a:Name>ContactF</a:Name>
 <a:Code>CONTACTF</a:Code>
@@ -1426,7 +1438,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>LVA10</a:DataType>
 <a:Length>10</a:Length>
 </o:DataItem>
-<o:DataItem Id="o24">
+<o:DataItem Id="o25">
 <a:ObjectID>35C648DC-68F6-42B4-AC2F-3A6DDA46334D</a:ObjectID>
 <a:Name>N°L</a:Name>
 <a:Code>N_L</a:Code>
@@ -1436,7 +1448,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>kengn</a:Modifier>
 <a:DataType>I</a:DataType>
 </o:DataItem>
-<o:DataItem Id="o26">
+<o:DataItem Id="o27">
 <a:ObjectID>B12C8073-2994-4638-B664-B484BAFF69B0</a:ObjectID>
 <a:Name>Date</a:Name>
 <a:Code>DATE</a:Code>
@@ -1447,7 +1459,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>LVA24</a:DataType>
 <a:Length>24</a:Length>
 </o:DataItem>
-<o:DataItem Id="o27">
+<o:DataItem Id="o28">
 <a:ObjectID>2D5A929B-F1D1-4EEA-842D-8259ED3F980A</a:ObjectID>
 <a:Name>NomLivre</a:Name>
 <a:Code>NOMLIVRE</a:Code>
@@ -1460,7 +1472,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:DataItem>
 </c:DataItems>
 <c:Associations>
-<o:Association Id="o14">
+<o:Association Id="o15">
 <a:ObjectID>2C480888-C26F-42C1-BF36-420D69F5CA73</a:ObjectID>
 <a:Name>Livrer</a:Name>
 <a:Code>LIVRER</a:Code>
@@ -1469,21 +1481,21 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1737199504</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:Attributes>
-<o:AssociationAttribute Id="o28">
+<o:AssociationAttribute Id="o29">
 <a:ObjectID>99658501-9273-4B65-99FA-D26CD6E1365B</a:ObjectID>
 <a:CreationDate>1737199424</a:CreationDate>
 <a:Creator>kengn</a:Creator>
 <a:ModificationDate>1737199504</a:ModificationDate>
 <a:Modifier>kengn</a:Modifier>
 <c:DataItem>
-<o:DataItem Ref="o27"/>
+<o:DataItem Ref="o28"/>
 </c:DataItem>
 </o:AssociationAttribute>
 </c:Attributes>
 </o:Association>
 </c:Associations>
 <c:AssociationsLinks>
-<o:AssociationLink Id="o8">
+<o:AssociationLink Id="o9">
 <a:ObjectID>A67562FE-C448-46F4-8877-F515E1D43FB0</a:ObjectID>
 <a:CreationDate>1737199599</a:CreationDate>
 <a:Creator>kengn</a:Creator>
@@ -1491,13 +1503,13 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>kengn</a:Modifier>
 <a:Cardinality>1,1</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o14"/>
+<o:Association Ref="o15"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o13"/>
+<o:Entity Ref="o14"/>
 </c:Object2>
 </o:AssociationLink>
-<o:AssociationLink Id="o11">
+<o:AssociationLink Id="o12">
 <a:ObjectID>A725C7E2-25F2-4BD2-9327-09E4312E1DB8</a:ObjectID>
 <a:CreationDate>1737199604</a:CreationDate>
 <a:Creator>kengn</a:Creator>
@@ -1505,15 +1517,15 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>kengn</a:Modifier>
 <a:Cardinality>1,n</a:Cardinality>
 <c:Object1>
-<o:Association Ref="o14"/>
+<o:Association Ref="o15"/>
 </c:Object1>
 <c:Object2>
-<o:Entity Ref="o12"/>
+<o:Entity Ref="o13"/>
 </c:Object2>
 </o:AssociationLink>
 </c:AssociationsLinks>
 <c:TargetModels>
-<o:TargetModel Id="o29">
+<o:TargetModel Id="o30">
 <a:ObjectID>CB55271F-8FAE-461C-8AF8-ED332522640A</a:ObjectID>
 <a:Name>ModeleConceptuelDonnees_3</a:Name>
 <a:Code>MODELECONCEPTUELDONNEES_3</a:Code>
@@ -1526,6 +1538,21 @@ LABL 0 Arial,8,N</a:FontList>
 <a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o31">
+<a:ObjectID>2C93B8DF-2173-4BF4-8BD6-89ABAEC8621E</a:ObjectID>
+<a:Name>ModeleConceptuelDonnees_3</a:Name>
+<a:Code>MODELECONCEPTUELDONNEES_3</a:Code>
+<a:CreationDate>1742899374</a:CreationDate>
+<a:Creator>kengn</a:Creator>
+<a:ModificationDate>1743147956</a:ModificationDate>
+<a:Modifier>kengn</a:Modifier>
+<a:TargetModelURL>file:///C|/xampp/htdocs/mcd/ModeleConceptuelDonnees_3.mld</a:TargetModelURL>
+<a:TargetModelID>8A4F6374-41AE-48BE-B38A-1372F56CC93F</a:TargetModelID>
+<a:TargetModelClassID>5F45F978-C4F3-4E35-A3FC-AF3318663A0F</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
 </c:TargetModels>
